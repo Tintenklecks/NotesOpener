@@ -13,6 +13,7 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		B6202AAB2B39E5C800D05B2C /* Notes-Opener-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist; path = "Notes-Opener-Info.plist"; sourceTree = SOURCE_ROOT; };
 		B6FA5C592B39AFE5002DE9F8 /* Notes Opener.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Notes Opener.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		B6FA5C5C2B39AFE5002DE9F8 /* Notes_OpenerApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Notes_OpenerApp.swift; sourceTree = "<group>"; };
 		B6FA5C602B39AFE6002DE9F8 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
@@ -50,6 +51,7 @@
 		B6FA5C5B2B39AFE5002DE9F8 /* Notes Opener */ = {
 			isa = PBXGroup;
 			children = (
+				B6202AAB2B39E5C800D05B2C /* Notes-Opener-Info.plist */,
 				B6FA5C5C2B39AFE5002DE9F8 /* Notes_OpenerApp.swift */,
 				B6FA5C602B39AFE6002DE9F8 /* Assets.xcassets */,
 				B6FA5C652B39AFE6002DE9F8 /* Notes_Opener.entitlements */,
@@ -275,6 +277,7 @@
 				ENABLE_HARDENED_RUNTIME = YES;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = "Notes-Opener-Info.plist";
 				INFOPLIST_KEY_NSHumanReadableCopyright = "";
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
@@ -302,6 +305,7 @@
 				ENABLE_HARDENED_RUNTIME = YES;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = "Notes-Opener-Info.plist";
 				INFOPLIST_KEY_NSHumanReadableCopyright = "";
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
